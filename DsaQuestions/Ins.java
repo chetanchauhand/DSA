@@ -15,6 +15,7 @@ public class Ins {
                 arr[j+1]=arr[j];
                 j--;
             }
+            arr[j+1] = current;
         }
         printArray(arr);
     }
